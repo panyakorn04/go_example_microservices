@@ -1,2 +1,1 @@
-# go_ex
-# go_ex
+# go_example_microservices
