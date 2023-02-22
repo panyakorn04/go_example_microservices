@@ -1,0 +1,12 @@
+Name: posts-api
+Host: 0.0.0.0
+Port: 8888
+Debug: true
+ReadTimeout: 60
+WriteTimeout: 60
+GracefulTimeout: 60
+PostRpc:
+  Etcd:
+    Hosts:
+      - localhost:2379
+    Key: posts.rpc

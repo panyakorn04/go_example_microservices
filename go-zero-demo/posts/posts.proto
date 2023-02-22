@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package posts;
+option go_package="./posts";
+
+message Request {
+  string ping = 1;
+}
+
+message Response {
+  string pong = 1;
+}
+
+service Posts {
+  rpc Ping(Request) returns(Response);
+}

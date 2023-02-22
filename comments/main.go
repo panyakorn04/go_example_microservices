@@ -60,5 +60,5 @@ func main() {
 		return c.JSON(fiber.Map{"comment": comment})
 	})
 
-	app.Listen(":" + config.ServerPort)
+	app.Listen(":80")
 }
