@@ -12,6 +12,7 @@ import (
 	"github.com/zeromicro/go-zero/rest"
 )
 
+// configFile 为配置文件路径
 var configFile = flag.String("f", "etc/posts-api.yaml", "the config file")
 
 func main() {
