@@ -12,7 +12,6 @@ import (
 	"github.com/zeromicro/go-zero/rest"
 )
 
-// test
 var configFile = flag.String("f", "etc/posts-api.yaml", "the config file")
 
 func main() {
