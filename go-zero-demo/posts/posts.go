@@ -4,12 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"go-zero-demo/posts/internal/config"
-	"go-zero-demo/posts/internal/handler"
-	"go-zero-demo/posts/internal/svc"
-
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/rest"
+	"github.com/tal-tech/go-zero/core/conf"
+	"github.com/tal-tech/go-zero/example/graceful/dns/api/handler"
+	"github.com/tal-tech/go-zero/rest"
+	"honnef.co/go/tools/config"
 )
 
 var configFile = flag.String("f", "etc/posts-api.yaml", "the config file")
